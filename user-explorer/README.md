@@ -1,6 +1,6 @@
 # 🔭 UserExplorer — Nuxt 3 Frontend Assignment
 
-A production-grade user data exploration module built with **Nuxt 3**, **Vue 3 Composition API**, **Pinia**, and **Tailwind CSS**.
+A production-grade user data exploration module built with **Nuxt 3**, **Vue 3 Composition API**, **Pinia** and **Tailwind CSS**.
 
 ---
 
@@ -143,7 +143,7 @@ user-explorer/
 ## 🧠 Architecture Decisions
 
 ### Why Pinia over Vuex?
-Pinia is Vue 3's official state management. It uses the Composition API (same as our components), has built-in TypeScript support, and is simpler with no mutations — just actions directly modify state.
+Pinia is Vue 3's official state management. It uses the Composition API (same as our components), has built-in TypeScript support and is simpler with no mutations — just actions directly modify state.
 
 ### Why localStorage over Cookies for Auth?
 For simplicity in this demo. In production, you'd use `httpOnly` cookies set by the server so JavaScript can't access the token (prevents XSS attacks).
